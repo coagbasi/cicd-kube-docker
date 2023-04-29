@@ -7,7 +7,7 @@ pipeline {
     }
 */
     environment {
-        registry = coagbasi/vprofileapp
+        registry = "coagbasi/vprofileapp"
         registryCredential = 'dockerhub'
 
     }
