@@ -1,11 +1,12 @@
 pipeline {
 
     agent any
-/*
+
 	tools {
         maven "maven3"
+	jdk "OracleJDK8"
     }
-*/
+
     environment {
         registry = "coagbasi/vprofileapp"
         registryCredential = 'dockerhub'
